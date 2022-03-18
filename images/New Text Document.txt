@@ -1,0 +1,5 @@
+<div class="heder-contnt">
+                        <h6 class="text-white">Advanced Platform</h6>
+                        <h1 class="text-white">Take your team  to the next level</h1>
+                        <p class="text-white">Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus, quidem cupiditate?</p>
+                    </div>

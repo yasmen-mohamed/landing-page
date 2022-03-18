@@ -1,0 +1,336 @@
+/* .backgron
+{
+    background-color: #ff6057;
+    width: 55%;
+    height: 60vh;
+    border-bottom-right-radius: 40%;
+} */
+*
+{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body
+{
+    font-family:"Poppins-SemiBold, Poppins";
+}
+
+.min-color
+{
+    color: #ff6057;
+}
+.min-colorBg
+{
+    background-color: #ff6057;
+}
+.graColorBg
+{
+    background-image: linear-gradient(to bottom right, #ff6057, #b5179e);
+}
+.graColor
+{
+    color: #b5179e;
+}
+/*Start Header*/
+#header
+{
+    background-image: url(../images/header.PNG);
+    background-position: center center;
+    background-size: cover;
+    height: 100vh;
+}
+.heder-contnt h1
+{
+    font-weight: 700;
+}
+.hrader-img img
+{
+    border-radius: 10px;
+}
+
+/*End Header*/
+
+/*Start Navbar*/
+#navContainer
+{
+    width: 75%;
+    transition: all 1s;
+}
+#main-nav
+{
+    background-color: transparent;
+    transition: all 1s;
+}
+.navbar li a
+{
+    color: #fff !important;
+    /* font-size: 1.1rem !important; */
+}
+.navbar-brand 
+{
+    font-size: 2rem !important;
+    color: #fff !important;
+    font-weight: 600 !important;
+}
+.btn-nav
+{
+    background-color: #ff6057;
+    /* background-color: #7c1c80; */
+    color: #fff;
+}
+/*End Navbar*/
+
+/*Start Section2*/
+.section2-text h3
+{
+    cursor: pointer;
+}
+.section2-text h2::before
+{
+    content: "";
+    width: 5rem;
+    height: 3px;
+    position: absolute;
+    left: 00%;
+    top: -13%;
+    background-color: #ff6057;
+}
+#section2 h3
+{
+    transition: all 1s;
+}
+#section2 h3:hover
+{
+    transform: translatex(15px);
+}
+.fa-arrow-right
+{
+    color: #ff6057;
+    font-size: 1.4rem;
+    padding-left: 1.5rem;
+}
+.section2-icons h4::before
+{
+    content: "";
+    width: 5rem;
+    height: 3px;
+    position: absolute;
+    bottom: -7%;
+    left: 0;
+    background-color: #ff6057;
+}
+.fi-brands-bootstrap
+{
+    /* font-size: 1.2rem; */
+    background-color: #1ABC9C;
+    color: #fff;
+}
+.fi-rr-briefcase
+{
+    color: #fff;
+    /* background-color: green; */
+    padding: 1rem;
+    font-size: 2rem;
+}
+/*End Section2*/
+
+
+/*Start Section3*/
+/* .section3 .section3-img
+{
+    background-image: url(../images/Rectangle\ 11.png);
+    background-position: center center;
+    background-size: cover;
+} */
+.section3-img img
+{
+    border-radius: 10px;
+}
+.section3-contnt h3
+{
+    cursor: pointer;
+    transition: all 1s;
+}
+.section3-contnt h3:hover
+{
+    transform: translateX(15px);
+}
+.section3-contnt h2::before
+{
+    content: "";
+    width: 5rem;
+    height: 3px;
+    position: absolute;
+    left: 00%;
+    top: -10%;
+    background-color: #ff6057;
+}
+/*End Section3*/
+.skitter .info_slide_dots .image_number
+{
+    background-color: #ff6057;
+}
+
+
+/* #section6 span::after
+{
+    content: "";
+    position: absolute;
+    bottom: 0;
+    right: 40%;
+    background-color: #ff6057;
+    width: 1px;
+    height: 30px;
+} */
+/*Start Section7*/
+.section7-contnt
+{
+    transition: all 1s;
+}
+.section7-contnt:hover
+{
+    transform: translateY(-30px);
+}
+/*End Section7*/
+
+/*Start Section8*/
+.carousel-inner
+{
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+.carousel-inner img
+{
+    border-radius: 15px;
+}
+.carousel-indicators li 
+{
+    width: 15px;
+    height: 15px;
+    background-color: gray !important;
+    border-radius: 50%;
+}
+.carousel-indicators  .active
+{
+    background-color: #ff6057 !important;
+}
+/* .carousel-indicators
+{
+    position: absolute;
+    right: 0;
+    bottom: -20%;
+    left: 0;
+    z-index: 15;
+} */
+.carousel-item img
+{
+    width: 150px !important;
+}
+/*End Section8*/
+
+/*Start Footer*/
+footer
+{
+    background-color: #484b42;
+    height: 40vh;
+}
+
+@media only screen and (max-width: 600px) {
+    footer {
+      height: 140vh;
+    }
+  }
+
+
+.btn1
+{
+    position: relative;
+    height: 56px;
+}
+.btn1 input
+{
+    position: relative;
+    width: 210px;
+    height: 50px;
+    border-radius: 25px;
+    outline: none;
+    cursor: pointer;
+    appearance: none;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: bold;
+    box-shadow: 1px 6px 11px #000000;
+    transition: 0.2s -0.1s;
+}
+.btn1 input:checked
+{
+    background-color: #fff;
+}
+.btn1 input:checked::before
+{
+    color: #fff;
+    transition: color 0.5s 0.2s;
+}
+.btn1 input:checked::after
+{
+    color: #111;
+    transition: color 0.5s ;
+}
+.btn1 input:checked +label
+{
+    left: 10px;
+    right: 100px;
+    background-color: #ff6057;
+    transition: left 0.5s , right 0.4s 0.2s;
+}
+.btn1 input:not(:checked)
+{
+    background-color: #fff;
+    transition: background-color 0.5s -0.1s;
+}
+.btn1 input:not(:checked)::before
+{
+    color: #111;
+    transition: color 0.5s;
+}
+.btn1 input:not(:checked)::after
+{
+    color: #fff;
+    transition: color 0.5s 0.2s;
+}
+.btn1 input:not(:checked)+label
+{
+    left: 100px;
+    right: 10px;
+    background-color: #ff6057;
+    transition: left 0.4s 0.2s , right 0.5s ,background-color 0.35s -0.1s;
+}
+.btn1 input::before,
+.btn1 input::after
+{
+    z-index: 4;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    color: #111;
+}
+.btn1 input::before
+{
+    content: "Mail";
+    left: 25px;
+}
+.btn1 input::after
+{
+    content: "Subscribe";
+    right: 10px;
+}
+.btn1 label
+{
+    z-index: 2;
+    position: absolute;
+    top: 10px;
+    bottom: 10px;
+    height: 2.6rem;
+    border-radius: 20px;
+}
+/*End Footer*/
+
