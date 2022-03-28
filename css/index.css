@@ -144,7 +144,7 @@ body
     left: 0;
     background-color: #ff6057;
 }
-.scale
+.scale /*/////////////////Scale//////////////*/
 {
     background-color: rgba(241,41,30,1);
     border-radius: 50%;
@@ -153,8 +153,21 @@ body
     align-items: center;
     width: 70px;
     height: 70px;
+    transition: all 0.5s;
 }
-.bootstrap
+.scale svg #Icon_simple-boost
+{
+    transition: all 0.5s;
+}
+.scale:hover svg #Icon_simple-boost
+{
+    fill:rgba(241,41,30,1) ;
+}
+.scale:hover 
+{
+    background-color: rgb(216, 210, 210) ;
+}
+.bootstrap /*///////////Bootstrap/////////////*/
 {
     border-radius: 50%;
     display: flex;
@@ -163,6 +176,19 @@ body
     width: 70px;
     height: 70px;
     background-color: rgba(54,197,173,1);
+    transition: all 0.5s;
+}
+.bootstrap svg #Icon_awesome-bootstrap
+{
+    transition: all 0.5s;
+}
+.bootstrap:hover svg #Icon_awesome-bootstrap
+{
+    fill: rgba(54,197,173,1);
+}
+.bootstrap:hover
+{
+    background-color: rgb(216, 210, 210) ;
 }
 .section2-icons .certification
 {
@@ -173,6 +199,19 @@ body
     align-items: center;
     width: 70px;
     height: 70px;
+    transition:  all 0.5s;
+}
+.certification svg #Tracé_2
+{
+    transition: all 0.5s;
+}
+.certification:hover svg #Tracé_2
+{
+    fill: rgb(86, 230, 91);
+}
+.certification:hover
+{
+    background-color: rgb(216, 210, 210) ;
 }
 .quality
 {
@@ -183,6 +222,19 @@ body
     width: 70px;
     height: 70px;
     background-color: rgba(203,75,248,1) ;
+    transition: all 0.5s;
+}
+.quality:hover
+{
+    background-color: rgb(216, 210, 210) ;
+}
+.quality:hover svg #Icon_material-high-quality
+{
+    fill: rgba(203,75,248,1);
+}
+.quality svg #Icon_material-high-quality
+{
+    transition: all 0.5s;
 }
 /*End Section2*/
 
